@@ -1,27 +1,23 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <side-bar />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SideBar from './views/DashBoard.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SideBar
   }
 }
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  font-family: 'Poppins', sans-serif;
   color: #2c3e50;
-  margin-top: 60px;
+ 
 }
 </style>
