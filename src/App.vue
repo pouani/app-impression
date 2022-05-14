@@ -28,6 +28,7 @@ export default {
 #app {
   font-family: 'Poppins', sans-serif;
   color: #2c3e50;
+  transition: .5s;
 }
 
 @media (prefers-color-schema: light) {

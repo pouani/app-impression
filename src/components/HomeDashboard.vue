@@ -287,5 +287,7 @@ li{
     height: 100vh;
     background: rgba(115, 182, 248, 0.397);
     backdrop-filter: blur(20px);
+    transition: .5s all ease-in-out;
+    animation: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 </style>
