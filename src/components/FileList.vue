@@ -1,5 +1,5 @@
 <template lang="">
-    <div>
+    <div class="mx-12">
         <h2 class="text-2xl">Liste de fichiers importees</h2>
         <div class="d-content my-16 p-5 rounded-md">
             <table class="bg-white rounded-md">
